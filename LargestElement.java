@@ -4,7 +4,7 @@ public class LargestElement {
 		System.out.println("The largest of the elements of the array is " + findLargest(array));
 	}
 	public static int findLargest(int[] array){
-		int max = 0;
+		int max = array[0];
 		for(int i = 1; i < array.length; i++){
 			if(array[i] > max){
 				max = array[i];
