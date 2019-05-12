@@ -30,9 +30,9 @@ public class SortArray {
 		}
 		return array;
 	}
-	public static void printSortedArray(int[] reversedArray){
-		for(int i = 0; i < reversedArray.length; i++){
-			System.out.print(reversedArray[i] + " ");
+	public static void printSortedArray(int[] sortedArray){
+		for(int i = 0; i < sortedArray.length; i++){
+			System.out.print(sortedArray[i] + " ");
 		}
 	}
 }
